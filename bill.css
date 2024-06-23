@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: cornsilk;
+}
+
+form {
+    width: 30vw;
+    height: 40vh;
+    background-color: rgb(159, 81, 163);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    /* align-items: center; */
+}
+
+input {
+    height: 5vh;
+    border-radius: 10px;
+    border: 2px solid rgb(159, 81, 163);
+}
+
+button {
+    width: 7vw;
+    height: 6vh;
+    border-radius: 10px;
+    border: 2px solid rgb(159, 81, 163);
+}
+
+label {
+    color: rgb(220, 225, 230);
+}
+
+#out {
+    height: 10vh;
+    width: 25vw;
+    background-color: yellowgreen;
+    text-align: center;
+    border-radius: 10px;
+    display: none;
+    padding: 10px;
+}
